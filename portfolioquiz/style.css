@@ -1,0 +1,183 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+  
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333333;
+}
+  
+.navbar-toggler-icon {
+    background-color: #333333;
+}
+  
+.navbar-nav .nav-link {
+    color: #333333 !important;
+}
+  
+.banner_section {
+    position: relative;
+    background-color: #f8f9fa;
+    color: #333333;
+}
+  
+#carouselExampleIndicators {
+    margin-top: 50px;
+}
+  
+.banner_taital {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.banner_text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+  
+.banner_img img {
+    max-width: 100%;
+    height: auto;
+}
+  
+  .about_section {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 50px 0;
+  }
+  
+  .about_taital {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .about_section_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .about_img img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about_taital_main {
+    max-width: 400px;
+  }
+  
+  .about_text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .classes_section {
+    background-color: #f8f9fa;
+    color: #333333;
+    padding: 50px 0;
+  }
+  
+  .classes_border {
+    border: 2px solid #333333;
+    padding: 20px;
+  }
+  
+  .classes_taital {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .classes_section_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .classes_img img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .astanga_taital {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .astanga_text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+ 
+.contact_section {
+    background-color: yellow;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.form_container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button {
+    background-color: yellow;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+  .copyright_section {
+    background-color: #333333;
+    color:black;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+@media (max-width: 768px) {
+    .navbar-toggler-icon {
+      background-color: #333333;
+    }
+  
+    .navbar-nav {
+      margin-top: 15px;
+    }
+  
+    .banner_taital,
+    .banner_text,
+    .about_taital,
+    .classes_taital,
+    .contact_taital {
+      font-size: 1.8rem;
+    }
+}
